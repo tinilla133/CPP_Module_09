@@ -6,13 +6,13 @@
 /*   By: fvizcaya <fvizcaya@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/12 22:49:04 by fvizcaya          #+#    #+#             */
-/*   Updated: 2026/07/12 22:57:29 by fvizcaya         ###   ########.fr       */
+/*   Updated: 2026/07/12 23:09:57 by fvizcaya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
-#ifndef RPN_HPP
-#define RPN_HPP
+#ifndef _RPN_HPP_
+#define _RPN_HPP_
 
 #include <string>
 

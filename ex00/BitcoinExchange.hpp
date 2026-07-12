@@ -6,12 +6,12 @@
 /*   By: fvizcaya <fvizcaya@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/12 22:26:06 by fvizcaya          #+#    #+#             */
-/*   Updated: 2026/07/12 22:44:14 by fvizcaya         ###   ########.fr       */
+/*   Updated: 2026/07/12 22:48:56 by fvizcaya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef BITCOINEXCHANGE_HPP
-#define BITCOINEXCHANGE_HPP
+#ifndef _BITCOINEXCHANGE_HPP_
+#define _BITCOINEXCHANGE_HPP_
 
 #include <map>
 #include <string>

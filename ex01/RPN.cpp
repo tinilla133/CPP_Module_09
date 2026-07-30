@@ -97,7 +97,9 @@ int RPN::evaluate(const std::string &expression)
 		if (token.size() == 1 && isOperator(token[0]))
 		{
 			if (values.size() < 2)
+			{
 				throw std::runtime_error("Error");
+			}
 
 			int rightOperand = values.top();
 			values.pop();

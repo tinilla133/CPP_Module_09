@@ -58,7 +58,7 @@ namespace
 		mergePairs(pairs, left, right);
 	}
 
-	std::vector<std::size_t> buildJacobsthalOrder(std::size_t count)
+	std::vector<std::size_t> buildInsertionOrder(std::size_t count)
 	{
 		std::vector<std::size_t> order;
 		if (count == 0) {
@@ -134,7 +134,7 @@ namespace
 			pending.push_back(oddValue);
 		}
 
-		std::vector<std::size_t> order = buildJacobsthalOrder(pending.size());
+		std::vector<std::size_t> order = buildInsertionOrder(pending.size());
 		for (std::size_t index = 0; index < order.size(); ++index) {
 			insertSorted(sequence, pending[order[index]]);
 		}
